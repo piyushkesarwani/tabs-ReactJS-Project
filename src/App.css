@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.btnContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 30px 30px;
+}
+
+.singleExperience {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    gap: 10px;
+    margin-left: 30px;
+    width: 600px;
+}
+
+.singleExperience .heading {
+    font-size: 2rem;
+    /* margin: 0px; */
+}
+
+.singleExperience .company {
+    font-size: 1.6rem;
+    color: rgb(10, 10, 10);
+    margin-top: -20px;
+}
+
+.singleExperience .dates {
+    color: rgb(165, 150, 150);
+    margin-top: -10px;
+    font-size: 1.2rem;
+}
+
+.singleExperience .duty {
+    margin: 0px;
+}
+
+.btn {
+    background-color: rgb(255, 255, 0);
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 18px;
+    border: 0.2px solid black;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: yellow;
+    border: black;
+    background-color: black;
+}
